@@ -2,9 +2,13 @@
 public class java {
     public static void main(String[] args)
     {
+        HelloWorld[] threads = new HelloWorld[10];
         for (int i = 0; i < 10 ; i++) {
-            HelloWorld object = new HelloWorld(i);
-            object.start();
+            threads[i] = new HelloWorld(i);
+        }
+
+        for (int i = 0; i < 10 ; i++) {
+            threads[i].start();
         }
     }
 }
