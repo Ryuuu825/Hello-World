@@ -1,4 +1,3 @@
 # This is a collection of  Hello World that I know.
 - Some of them are Multi-threading.
-
-## I am using Mac M1
+- Those program are written on Mac M1 machines with OSX 12.0.1. 
